@@ -1,4 +1,4 @@
-defineClass('JPViewController', {
+defineClass('TWRequestURLEngine', {
             
     detailWithParam: function(originParamDic) {
 
