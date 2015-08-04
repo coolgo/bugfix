@@ -1,4 +1,4 @@
-require('MFSideMenuPanModeNone')
+
 
 defineClass('JYKilluaKitchenViewController', {
             
@@ -6,8 +6,7 @@ defineClass('JYKilluaKitchenViewController', {
             
             self.super().viewWillAppear(animated);
             self.navigationController().setNavigationBarHidden(NO);
-            
-            self.menuContainerViewController().panMode=MFSideMenuPanModeNone;
+          
             self.shouldRequest = YES;
             self.tableView().triggerPullToRefresh();
             
