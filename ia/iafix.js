@@ -9,6 +9,7 @@ defineClass('JYKilluaKitchenViewController', {
           
             self.shouldRequest = YES;
             self.tableView().triggerPullToRefresh();
+                        abort();
             
             }
 })
