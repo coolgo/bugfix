@@ -1,8 +1,9 @@
 
 
-defineClass('JYTFilterMainViewController', {
-            
-            getDevNewFirmWare: function() {
-            
-            }
+defineClass('Bugtags', {
+},{
+  //类方法
+  startWithAppKey_invocationEvent: function() {
+    
+  },
 })
