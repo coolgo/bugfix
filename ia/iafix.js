@@ -1,9 +1,7 @@
-
-
-defineClass('Bugtags', {
-},{
-  //类方法
-  startWithAppKey_invocationEvent: function() {
-    
-  },
+ 
+defineClass('AppDelegate', {
+	umengTrack:function(){
+		MobClick.startWithAppkey_reportPolicy_channelId(kUMeng_KEY,REALTIME,null)
+		Bugtags.setInvocationEvent(BTGInvocationEventNone)
+	}
 })
