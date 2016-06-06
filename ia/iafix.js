@@ -1,7 +1,8 @@
  
-defineClass('AppDelegate', {
-	umengTrack:function(){
-		MobClick.startWithAppkey_reportPolicy_channelId(kUMeng_KEY,REALTIME,null)
+defineClass('UIViewController', {
+	viewDidAppear:function(animated){
+		self.super().viewDidAppear(animated);
+		require('Bugtags')
 		Bugtags.setInvocationEvent(BTGInvocationEventNone)
 	}
 })
