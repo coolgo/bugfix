@@ -9,7 +9,7 @@ require('JYDeviceMainViewController, JYKitchenViewController');
             controller.setVirtualType(VirtualTypeK5);
             weakSelf.navigationController().pushViewController_animated(controller, true);
             });
-        },\
+        },
     })
 
 
